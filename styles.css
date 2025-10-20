@@ -22,7 +22,7 @@ header {
   position: fixed; /* keeps it fixed on the screen */
   top: 0; /* sticks it to the top */
   left: 0; /* aligns to the left */
-  width: 97.5%;
+  width: 100%;
   height: 50px; /* full width */
   z-index: 1000; /* ensures it stays on top of other elements */;
 }
