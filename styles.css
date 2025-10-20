@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Zain", sans-serif;
   padding-top: 80px;
+  color: #000000;
 }
 
 #brand-logo {
@@ -18,11 +19,11 @@ header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   position: fixed; /* keeps it fixed on the screen */
-  top: 0;          /* sticks it to the top */
-  left: 0;         /* aligns to the left */
+  top: 0; /* sticks it to the top */
+  left: 0; /* aligns to the left */
   width: 97.5%;
-  height: 50px;     /* full width */
-  z-index: 1000; 
+  height: 50px; /* full width */
+  z-index: 1000;
 }
 
 #search-bar {
@@ -50,16 +51,29 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin: 10px 100px;
-  border: 2px dotted black;
+  margin: 20px 100px;
   width: 500px;
   height: auto;
   gap: 10px;
+  background-color: #ededed;
+  border-radius: 15px;
+  box-shadow: 4px 4px 11px rgb(179, 179, 179);
 }
 
 .product-image {
-  border: 2px dotted black;
   width: 150px;
   height: auto;
   margin: 10px;
+  border-radius: 20px;
+}
+
+.price {
+  font-size: 23px;
+  color: #fca311;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
 }
