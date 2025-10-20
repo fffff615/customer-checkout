@@ -1,11 +1,12 @@
-.header-icon-size {
-    width: 30px;
-    height: auto;
+body {
+  margin: 0;
+  font-family: "Zain", sans-serif;
+  padding: 0;
 }
 
 #brand-logo {
-    display: block;
-    margin: 20px auto;
+  display: block;
+  margin: 20px auto;
 }
 
 header {
@@ -25,26 +26,36 @@ header {
   border-radius: 20px;
 }
 
-body {
-    margin: 0;
-    font-family: "Zain", sans-serif;
-
-}
-
-input{
-    font-family: "Zain", sans-serif;
-    font-size: 15px;
+input {
+  font-family: "Zain", sans-serif;
+  font-size: 15px;
 }
 
 #products-in-cart-wrapper {
-    box-shadow: 10px 10px 10px black;
-    border: dotted black 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    width: 50%;
-    margin: 20px;
-    padding: 5px 20px;
+  box-shadow: 10px 10px 10px black;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
 }
 
+#product-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 2px dotted black;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+
+#product-1-image {
+  border: 2px dotted black;
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
