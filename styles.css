@@ -24,13 +24,12 @@ header {
   left: 0; /* aligns to the left */
   width: 100%;
   height: 50px; /* full width */
-  z-index: 1000; /* ensures it stays on top of other elements */;
+  z-index: 1000; /* ensures it stays on top of other elements */
 }
 
-#search-bar::placeholder{
+#search-bar::placeholder {
   color: #283618;
 }
-
 
 #search-bar {
   width: 100%;
@@ -95,7 +94,6 @@ h1 {
   justify-content: center;
   margin-left: 20px;
   width: 100%;
-
 }
 
 shopping-bag-section {
@@ -118,5 +116,3 @@ shopping-bag-section {
   margin-top: 20px;
   background-color: #606c38;
 }
-
-
