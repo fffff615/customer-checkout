@@ -138,3 +138,23 @@ main {
   justify-content: center;
   margin: 35px;
 }
+
+#heart:hover {
+  content: url("images/icons/heart-hover.png");
+  transform: scale(1.1);
+}
+
+#home-icon:hover {
+  content: url("images/icons/home-hover.png");
+  transform: scale(1.1);
+}
+
+#shopping-cart-icon:hover {
+  content: url("images/icons/shopping-cart-hover.png");
+  transform: scale(1.1);
+}
+
+#person-icon:hover {
+  content: url("images/icons/person-hover.png");
+  transform: scale(1.1);
+}
