@@ -3,6 +3,7 @@ body {
   font-family: "Zain", sans-serif;
   color: #fefae0;
   background-color: #fefae0;
+  text-align: center;
 }
 
 #brand-logo {
@@ -45,7 +46,6 @@ input {
   justify-content: center;
   height: auto;
   width: 50%;
-  border: red dotted 2px;
 }
 
 .product {
@@ -53,7 +53,7 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px  0px;
+  margin: 30px 0px;
   width: 100%;
   height: auto;
 
@@ -97,10 +97,8 @@ h1 {
   justify-content: center;
   width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin: 20px;
 }
-
-
 
 #shopping-bag-section {
   display: flex;
@@ -110,18 +108,15 @@ h1 {
 }
 
 #cart-summary-wrapper {
-  border: red dotted 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 50%;
-  margin-top: 20px;
+  width: 100%;
 }
 
 #cart-summary {
-  border: red dotted 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,6 +124,13 @@ h1 {
   height: auto;
   width: 100%;
   background-color: #606c38;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#cart-summary, p, h2 {
+  color: #fefae0;
+  margin: 8px;
 }
 
 main {
@@ -157,4 +159,29 @@ main {
 #person-icon:hover {
   content: url("images/icons/person-hover.png");
   transform: scale(1.1);
+}
+
+#cart-summary-title {
+  font-size: 40px;
+}
+
+#vat, #total-price {
+  font-size: 25px;
+  color: #dda15e;
+}
+
+#checkout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #283618, #48512a);
+  color: #fefae0;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+#checkout-button:hover {
+  background: linear-gradient(to right, #1c2511, #32512a);
+  transform: translate(0, -5px);
 }
