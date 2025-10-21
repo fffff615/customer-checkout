@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: "Zain", sans-serif;
-  padding-top: 80px;
   color: #fefae0;
   background-color: #fefae0;
 }
@@ -19,12 +18,6 @@ header {
   padding: 10px 20px;
   background-color: #283618;
   border-bottom: none;
-  position: fixed; /* keeps it fixed on the screen */
-  top: 0; /* sticks it to the top */
-  left: 0; /* aligns to the left */
-  width: 100%;
-  height: 50px; /* full width */
-  z-index: 1000; /* ensures it stays on top of other elements */
 }
 
 #search-bar::placeholder {
@@ -48,10 +41,11 @@ input {
 #products-in-cart-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: auto;
-  width: 100%;
+  width: 50%;
+  border: red dotted 2px;
 }
 
 .product {
@@ -59,7 +53,7 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 100px;
+  margin: 20px  0px;
   width: 100%;
   height: auto;
 
@@ -96,7 +90,7 @@ h1 {
   width: 100%;
 }
 
-shopping-bag-section {
+#shopping-bag-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,12 +100,41 @@ shopping-bag-section {
   margin-top: 20px;
 }
 
-.cart-summary {
+
+
+#shopping-bag-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cart-summary-wrapper {
+  border: red dotted 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: auto;
+  width: 50%;
   margin-top: 20px;
+}
+
+#cart-summary {
+  border: red dotted 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
   background-color: #606c38;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 35px;
 }
