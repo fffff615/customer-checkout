@@ -177,4 +177,5 @@ main {
 #checkout-button:hover {
   background: linear-gradient(to right, #1c2511, #32512a);
   transform: translate(0, -5px);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
 }
