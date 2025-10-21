@@ -45,7 +45,7 @@ input {
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .product {
@@ -53,7 +53,7 @@ input {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0px;
+  margin: 15px;
   width: 100%;
   height: auto;
 
