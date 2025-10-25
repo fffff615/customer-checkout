@@ -7,13 +7,14 @@
       href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/c0b8655845.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Bag</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!--Navigation menue-->
+    <!--Navigation menu-->
     <header>
       <img
         src="/images/icons/home.png"
@@ -26,6 +27,7 @@
         placeholder="Search for products, brands and more"
         id="search-bar"
       />
+        <a id="nav-heartBtn" href="./favourites.html"><i class="fa-regular fa-heart" id="nav-heart"></i></a>
       <img
         src="images/icons/shopping-cart.png"
         alt="Shopping Bag"
@@ -44,7 +46,6 @@
       <section id="shopping-bag-section">
         <div id="products-in-cart-wrapper">
           <div>
-
             <!--Product 1 (Quran)-->
             <div class="product">
               <img
@@ -52,13 +53,14 @@
                 alt="a product image of the quran, the holy book of islam, which has been opened to reveal arabic text"
                 class="product-image"
               />
-              <div class="product-info">
+              <div class="product-info" data-id="1">
                 <h1>The Quran</h1>
                 <p class="price">£0.67</p>
-                <img src="images/icons/heart.png" alt="favourite this product" id="heart"/>
+                <button id="heartBtn" type="button">
+                  <i class="fa-regular fa-heart" id="heart"></i>
+                </button>
               </div>
             </div>
-
             <!--Product 2 (40 Hadeeths)-->
             <div class="product">
               <img
@@ -66,25 +68,27 @@
                 alt="a product image of a book titled '40 Hadeeths' which contains sayings of the prophet muhammad (peace be upon him) and his companions"
                 class="product-image"
               />
-              <div class="product-info">
+              <div class="product-info" data-id="2">
                 <h1>The 40 Hadeeths</h1>
                 <p class="price">£7.99</p>
-                <img src="images/icons/heart.png" alt="favourite this product" id="heart"/>
+                <button id="heartBtn" type="button">
+                  <i class="fa-regular fa-heart" id="heart"></i>
+                </button>
+
               </div>
             </div>
-            
   </section>
   <section id="cart-summary-wrapper">
       <div id="cart-summary">
-         <div>
-         <h2 id="cart-summary-title">Cart Summary</h2>
-         <p id="vat">VAT: £0.99</p>
-         <p id="total-price">Total: £8.66</p>
-         <a id="checkout-button" href="checkout.html">Proceed to Checkout</a>
+          <div>
+          <h2 id="cart-summary-title">Cart Summary</h2>
+          <p id="vat">VAT: £0.99</p>
+          <p id="total-price">Total: £8.66</p>
+          <a id="checkout-button" href="checkout.html">Proceed to Checkout</a>
         </div>
       </div>
   </section>
 </main>
+<script src="javascript.js"></script>
 </body>
-  </body>
 </html>

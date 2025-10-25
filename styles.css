@@ -81,6 +81,11 @@ h1 {
   margin: 0;
 }
 
+.favourite-heading{
+  color: #000000;
+  font-size: 60px;
+}
+
 .product-info {
   display: flex;
   flex-direction: column;
@@ -136,11 +141,29 @@ main {
   margin: 35px;
 }
 
-#heart:hover {
-  content: url("images/icons/heart-hover.png");
-  transform: scale(1.1);
+#heartBtn, #nav-heartBtn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
+
+#heart.active {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+
+#heart {
+  font-size: 30px;
+}
+
+#nav-heartBtn {
+  margin-top: 5px;
+  font-size: 28px;
+}
 #home-icon:hover {
   content: url("images/icons/home-hover.png");
   transform: scale(1.1);
@@ -210,7 +233,7 @@ label {
 
 label[for="name"] {
   text-align: center;
-  
+
 }
 
 #name::placeholder {
@@ -246,5 +269,3 @@ input:focus {
 label{
   font-size: 25px;
 }
-
-
