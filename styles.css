@@ -187,3 +187,64 @@ main {
   font-weight: bold;
   text-shadow: 0px 0px 1.5px #000000;
 }
+
+#checkout-form-wrapper{
+  border: 2px dotted red;
+  height: 1000px;
+}
+
+#checkout-form {
+  background-color: #606c38;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #283618;
+}
+
+label {
+  font-size: 20px;
+  color: #fefae0;
+  font: "Zain", sans-serif;
+}
+
+label[for="name"] {
+  text-align: center;
+  
+}
+
+#name::placeholder {
+  text-align: center;
+}
+
+form {
+  margin: 50px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+input[type="text"], input[type="email"]{
+  width: 50%;
+  height: 20px;
+  padding: 10px;
+  background-color: #fefae0;
+  color: #283618;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  transform: scale(1.01);
+  outline: none;
+  box-shadow: 2px 2px 2px #283618;
+}
+
+label{
+  font-size: 25px;
+}
+
+
